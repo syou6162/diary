@@ -28,6 +28,62 @@ kansit -s "**/*.md" -c "kramdown < hoge.md  | nkf -w > test.html && open -g test
 
 ## 鞍馬と貴船に行ってきました
 
+出発の出町柳駅。叡山電鉄には初めて乗りました。
+
+![出町柳駅](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0711.jpg)
+
+京阪奈も静かなところですが、いつもよりさらに静かでした。
+
+![](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0717.jpg)
+![](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0727.jpg)
+
+![貴船駅](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0729.jpg)
+
+下を川が流れている。雨天時は中止。
+
+![](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0740.jpg)
+
+![貴船神社入口1](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0743.jpg)
+![貴船神社入口2](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0745.jpg)
+![貴船神社1](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0746.jpg)
+![貴船神社2](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0747.jpg)
+
+水占い。何も書いてないけど...?
+
+![水占いbefore](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0762.jpg)
+
+水に付けると出てきました。大吉!
+
+![大吉](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0764.jpg)
+
+### 突然のそうめん!
+
+人生初めての流しそうめんを体験しました。思ってたよりもどんどんくるので、写真取るの交代しながらじゃないと無理w。
+
+![ひろ文](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0774.jpg)
+![そうめん待ち](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0814.jpg)
+![そうめんセット](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0827.jpg)
+![そうめん1](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0833.jpg)
+![そうめん2](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0834.jpg)
+![そうめん3](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0835.jpg)
+![そうめん4](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0836.jpg)
+![そうめん5](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0837.jpg)
+
+### 鞍馬寺
+
+![天狗1](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0840.jpg)
+![天狗2](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0841.jpg)
+
+![お寺入口](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0844.jpg)
+![](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0851.jpg)
+![](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0859.jpg)
+![ケーブルカー1](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0864.jpg)
+![ケーブルカー2](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0868.jpg)
+
+![のぼっている途中](https://raw.github.com/gist/f22a012421976b2daf5f/IMGP0873.jpg)
+![本殿](https://raw.github.com/gist/f22a012421976b2daf5f/IMGP0878.jpg)
+![上からの景色](https://raw.github.com/gist/f22a012421976b2daf5f/IMGP0879.jpg)
+
 # 2012-09-16
 
 ## compojureでrestartかけずにファイルの反映をさせる
