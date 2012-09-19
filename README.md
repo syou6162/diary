@@ -1,4 +1,15 @@
 
+# 2012-09-19
+
+## 画像の縮小
+markdownは画像のサイズを指定できないっぽいので、カメラで取った写真をそのまま貼るとアホみたいにでかくなる。というわけでその前に縮小したい。いっぱいあるのでコマンドラインで一括処理。
+
+```sh
+# convertコマンドはが入っていないなら以下で入れる
+sudo port install ImageMagick +lcms +jpeg2
+ls IMGP*.jpg | xargs -I@ convert -resize 20% @ shrinked-@
+```
+
 # 2012-09-18
 
 ## コマンドラインで簡単にお手軽markdownブラウザを作る
