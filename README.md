@@ -80,9 +80,9 @@ kansit -s "**/*.md" -c "kramdown < hoge.md  | nkf -w > test.html && open -g test
 ![ケーブルカー1](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0864.jpg)
 ![ケーブルカー2](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0868.jpg)
 
-![のぼっている途中](https://raw.github.com/gist/f22a012421976b2daf5f/IMGP0873.jpg)
-![本殿](https://raw.github.com/gist/f22a012421976b2daf5f/IMGP0878.jpg)
-![上からの景色](https://raw.github.com/gist/f22a012421976b2daf5f/IMGP0879.jpg)
+![のぼっている途中](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0873.jpg)
+![本殿](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0878.jpg)
+![上からの景色](https://raw.github.com/gist/f22a012421976b2daf5f/shrinked-IMGP0879.jpg)
 
 # 2012-09-16
 
