@@ -1,4 +1,37 @@
 
+# 2012-09-21
+
+## コマンドラインユーティリティツール群
+調べものしてたら便利そうなの見つけた。
+
+- [brendano/cmdutils](https://github.com/brendano/cmdutils)
+
+Rとかを使っていたら、`mean`とか`sd`とか`summary`とかやりたくなってしまうから
+
+```sh
+# alias for stats functions
+for f in mean sd max min
+do
+    alias $f="R --vanilla --slave -e \"x <- scan('stdin', quiet=TRUE); cat($f(x), fill=TRUE)\""
+done
+```
+
+とかやっていたのだけれど、上のちっちゃいユーティリティツールみたいなののほうが使い勝手よさそう。
+
+JSONで配列のある要素の統計量取りたい、みたいなときとか
+
+```sh
+% cat all.json | jsonrb 'puts self.map{|doc| doc.domain}' | summary
+N = 26147 		17 unique values
+Min   :  0
+    25:  4
+Median:  7 	Mean: 7.757 	SD: 4.901
+    75:  11
+Max   :  16
+```
+
+のようにできて便利。別に普通にスクリプトを書けばいいんだけど、ワンライナーでできるっていうのがいいところ。
+
 # 2012-09-19
 
 ## 画像の縮小
