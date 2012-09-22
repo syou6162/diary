@@ -1,4 +1,51 @@
 
+# 2012-09-22
+
+## 京都、自転車旅
+もう一ヶ月前くらいですけど、カメラの練習がてら(最近そればっかりですw)京都市内を自転車で周りました。この本を参考にしてルートを決めました。
+
+- [Amazon.co.jp： 京都自転車デイズ: ワークルーム: 本](http://www.amazon.co.jp/dp/4838104103/)
+
+### 出発
+
+![当日乗って行った自転車](https://raw.github.com/gist/e5bd13178d9eb586d8fb/shrinked-IMGP0296.jpg)
+![](https://raw.github.com/gist/e5bd13178d9eb586d8fb/shrinked-IMGP0287.jpg)
+![](https://raw.github.com/gist/e5bd13178d9eb586d8fb/shrinked-IMGP0281.jpg)
+
+### 八坂の塔
+
+![八坂の塔](https://raw.github.com/gist/e5bd13178d9eb586d8fb/shrinked-IMGP0298.jpg)
+![](https://raw.github.com/gist/e5bd13178d9eb586d8fb/shrinked-IMGP0306.jpg)
+![](https://raw.github.com/gist/e5bd13178d9eb586d8fb/shrinked-IMGP0315.jpg)
+
+### 円塔公園
+
+![円塔公園](https://raw.github.com/gist/e5bd13178d9eb586d8fb/shrinked-IMGP0328.jpg)
+
+### 八坂神社
+
+![](https://raw.github.com/gist/e5bd13178d9eb586d8fb/shrinked-IMGP0345.jpg)
+![京都っぽい雰囲気の人力車](https://raw.github.com/gist/e5bd13178d9eb586d8fb/shrinked-IMGP0347.jpg)
+![](https://raw.github.com/gist/e5bd13178d9eb586d8fb/shrinked-IMGP0352.jpg)
+![](https://raw.github.com/gist/e5bd13178d9eb586d8fb/shrinked-IMGP0362.jpg)
+![](https://raw.github.com/gist/e5bd13178d9eb586d8fb/shrinked-IMGP0368.jpg)
+![](https://raw.github.com/gist/e5bd13178d9eb586d8fb/shrinked-IMGP0373.jpg)
+
+### 御所
+
+![御所](https://raw.github.com/gist/e5bd13178d9eb586d8fb/shrinked-IMGP0387.jpg)
+
+### ご飯系
+
+![昼御飯](https://raw.github.com/gist/e5bd13178d9eb586d8fb/shrinked-IMGP0405.jpg)
+![白玉](https://raw.github.com/gist/e5bd13178d9eb586d8fb/shrinked-IMGP0408.jpg)
+
+### 夜景
+
+![月](https://raw.github.com/gist/e5bd13178d9eb586d8fb/shrinked-IMGP0643.jpg)
+![京都タワー](https://raw.github.com/gist/e5bd13178d9eb586d8fb/shrinked-IMGP0618.jpg)
+![夜景](https://raw.github.com/gist/e5bd13178d9eb586d8fb/shrinked-IMGP0667.jpg)
+
 # 2012-09-21
 
 ## コマンドラインユーティリティツール群
