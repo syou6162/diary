@@ -1,6 +1,24 @@
 
 # 2012-09-22
 
+## 関東に遊びに行きました
+これまた一ヶ月くらい前の(ry、ですが。夏期休暇を使って東京に行きました。主に人と会っていたのですが、人の写真は勝手に上げれないので必然的に食べものの写真ばかりに。横須賀の刺身がおいしかったです。パンは渋谷の駅に最近できたパン屋さん。
+
+![きゅうり](https://raw.github.com/gist/e18ddb934109a52e34f9/shrinked-IMGP0411.jpg)
+![サラダ](https://raw.github.com/gist/e18ddb934109a52e34f9/shrinked-IMGP0412.jpg)
+![ハモ](https://raw.github.com/gist/e18ddb934109a52e34f9/shrinked-IMGP0414.jpg)
+![](https://raw.github.com/gist/e18ddb934109a52e34f9/shrinked-IMGP0415.jpg)
+![刺身](https://raw.github.com/gist/e18ddb934109a52e34f9/shrinked-IMGP0417.jpg)
+
+![](https://raw.github.com/gist/e18ddb934109a52e34f9/shrinked-IMGP0425.jpg)
+![](https://raw.github.com/gist/e18ddb934109a52e34f9/shrinked-IMGP0426.jpg)
+![](https://raw.github.com/gist/e18ddb934109a52e34f9/shrinked-IMGP0427.jpg)
+![](https://raw.github.com/gist/e18ddb934109a52e34f9/shrinked-IMGP0428.jpg)
+
+最後はビール飲んでた。
+
+![](https://raw.github.com/gist/e18ddb934109a52e34f9/shrinked-IMGP0458.jpg)
+
 ## 京都、自転車旅
 もう一ヶ月前くらいですけど、カメラの練習がてら(最近そればっかりですw)京都市内を自転車で周りました。この本を参考にしてルートを決めました。
 
