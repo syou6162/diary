@@ -1,6 +1,15 @@
 
 # 2012-09-24
 
+## HandBrakeのCUIで字幕を埋め込む
+以前はGUIでポチポチ押していってたんですが、やる量が多くなると面倒なことこの上ないので自動化自動化。
+
+- [DVDをmpegにしておく - Seeking for my unique color.](http://d.hatena.ne.jp/syou6162/20120111/1326210413)
+
+こんなスクリプトを適当に書きました。字幕を埋め込みにしないとiPhoneじゃ見れないのでちょっと苦労した。
+
+<script src="https://gist.github.com/3776204.js?file=friends_extractor.rb"></script>
+
 ## 読了
 読み終わった。面白かったので、続きも買おっと。
 
