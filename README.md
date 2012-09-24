@@ -8,7 +8,7 @@
 
 こんなスクリプトを適当に書きました。字幕を埋め込みにしないとiPhoneじゃ見れないのでちょっと苦労した。
 
-<script src="https://gist.github.com/3776204.js?file=friends_extractor.rb"></script>
+- [HandBrakeのCLIでmp4に変換 — Gist](https://gist.github.com/3776204)
 
 ## 読了
 読み終わった。面白かったので、続きも買おっと。
