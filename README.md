@@ -1,5 +1,35 @@
 # 2012-09-26
 
+## git rebase関係
+
+つぎはぎになっていた付近をきちんとgitに追加していく簡単ではないお仕事。「あー、あのコミットに追加しそこねた!!」ってやつがあったときに初めてgit rebaseを使った。ここが分かりやすかった。
+
+- [古いコミットを書き換える： 歴史修正主義者のための git rebase -i 入門 - 学習する機械、学習しない人間](http://d.hatena.ne.jp/okmount/20091021/p1#20091021f1)
+
+基本的には書き換えたいコミットの一つ前に戻って`git commit --amend`、終わったら`git rebase --continue`していけばよい。ミスったら`git rebase --abort`で戻れます。
+
+---
+
+rebaseするときにとりあえずstashで退避しておいて、戻したらconflictってことがときどきある。そのときはファイルを選択してcheckout、みたいなことができる。
+
+```sh
+git stash list
+```
+
+で今あるスタッシュのリストを見て、具体的なファイルの変更点が知りたかったら
+
+```sh
+git show stash@{0}:test/PivotGenerativeModel/test/util.clj
+```
+
+で見ればよく、戻したかったらこんな感じで戻せる。
+
+```sh
+git checkout stash@{0} test/PivotGenerativeModel/test/util.clj
+```
+
+- [git-stashしたファイルをapplyしようとしてコンフリクトしたときの解決法 - 豆無日記](http://d.hatena.ne.jp/nobeans/20090525/1243269992)
+
 ## 読了
 
 - [Amazon.co.jp： 太陽の塔 (新潮文庫): 森見 登美彦: 本](http://www.amazon.co.jp/dp/4101290512/)
