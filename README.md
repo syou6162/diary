@@ -1,3 +1,46 @@
+# 2012-09-28
+
+## 生のJavaファイルをClojureから使う
+例えば[この辺](https://github.com/aria42/umass-nlp)をclojureから触りたいなーって思ったとしよう。こいつはjarで固められていないので、自分でどうにかしないといけない。そのやり方とかがちょっと分からなくなったのでメモしておく。
+
+まず、project.cljを用意する。`java-source-paths`とかをきちんと書いてやる。
+
+```clj
+(defproject hoge "0.1.0-SNAPSHOT"
+  :description "FIXME: write description"
+  :url "http://example.com/FIXME"
+  :license {:name "Eclipse Public License"
+            :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :dependencies [[org.clojure/clojure "1.4.0"]
+                 [log4j/log4j "1.2.16"]
+                 [commons-primitives/commons-primitives "1.0"]
+                 [org.yaml/snakeyaml "1.5"]
+                 [net.htmlparser.jericho/jericho-html "3.1"]]
+  :java-source-paths ["edu/"])
+```
+
+(cljファイルではなく)javaファイルをコンパイルする。若干警告が出てるけど、気にしない。
+
+```
+% lein javac
+Compiling 95 source files to /Users/yasuhisa/Desktop/umass-nlp/src/main/java/hoge/target/classes
+注:入力ファイルの操作のうち、未チェックまたは安全ではないものがあります。
+注:詳細については、-Xlint:unchecked オプションを指定して再コンパイルしてください。
+```
+
+このディレクトリで
+
+```
+% pwd
+/Users/yasuhisa/Desktop/umass-nlp/src/main/java/hoge/target/classes
+```
+
+こういう感じのクラスパスを付けてあげれば動く。これでとりあえずjarが提供されていないようなものについても触れるようになったのでちょっと安心である。
+
+```sh
+% java -classpath /Users/yasuhisa/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:/Users/yasuhisa/.m2/repository/commons-primitives/commons-primitives/1.0/commons-primitives-1.0.jar:. edu.umass.nlp.examples.HMMTest
+```
+
 # 2012-09-26
 
 ## git rebase関係
