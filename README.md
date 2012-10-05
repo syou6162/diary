@@ -23,6 +23,34 @@
   (.length file-obj))
 ```
 
+## leinでlocalのjarを参照する
+clojarsとかに入っていなかった場合などなど。ここではJavaのハイパフォーマンスなコレクションのライブラリである[Trove](http://trove.starlight-systems.com/)のjarをleinで追加したい場合を考える。以下のリポジトリを使う。
+
+- [kumarshantanu/lein-localrepo](https://github.com/kumarshantanu/lein-localrepo)
+
+`project.clj`にこんな感じで記述する。
+
+```clj
+(defproject seq-dep "0.1.0-SNAPSHOT"
+  :description "FIXME: write description"
+  :url "http://example.com/FIXME"
+  :license {:name "Eclipse Public License"
+            :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :dependencies [[org.clojure/clojure "1.4.0"]
+                 [fobos_clj "0.0.2"]
+                 [gnu/trove "1.0"]]
+  :plugins [[lein-swank "1.4.4"]
+            [lein-localrepo "0.4.1"]]
+  :java-source-paths ["src/java/"]
+  :main seq-dep.core)
+```
+
+これでいい感じにjarを配置してくれる。
+
+```sh
+% lein localrepo install src/java/lib/trove.jar gnu/trove 1.0
+```
+
 # 2012-10-03
 
 ## 読了
