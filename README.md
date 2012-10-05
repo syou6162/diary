@@ -1,4 +1,28 @@
 
+# 2012-10-05
+
+## Clojureでtemp fileを操作する
+`with-open`っぽくやりたいですよね、ってことで。
+
+- [pallet/src/pallet/utils.clj at 7c301919ba585c9a8bfb92d9518f8f7431a1001e · tbatchelli/pallet](https://github.com/tbatchelli/pallet/blob/7c301919ba585c9a8bfb92d9518f8f7431a1001e/src/pallet/utils.clj#L128)
+
+```clj
+(require [clojure.java.io :as io])
+
+(defmacro with-temp-file
+  [[varname & [content]] & body]
+  `(let [~varname (java.io.File/createTempFile "stevedore", ".tmp")]
+     (when-let [content# ~content]
+       (io/copy content# ~varname))
+     (let [rv# (do ~@body)]
+       (.delete ~varname)
+       rv#)))
+
+;; 使い方
+(with-temp-file [file-obj (str (repeat 100000 "content"))]
+  (.length file-obj))
+```
+
 # 2012-10-03
 
 ## 読了
