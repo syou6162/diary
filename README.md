@@ -7,7 +7,7 @@
 
 といっても1 vs restでやるだけの簡単なやつです。でも、clojureだけで動くと何かと便利なので。libsvm形式とかに一回用意しないといけないとかは面倒だけど、このライブラリだと
 
-```
+```clj
 (def training-example
   [["A" ["hoge" 1] ["fuga" 1]]
    ["B" ["piyo" 1] ["nyan" 1]]
