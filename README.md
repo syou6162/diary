@@ -1,11 +1,20 @@
-# 2012-10-07
+# 2012-10-07 
 
 ## Clojureで多クラス分類器
 [今年の春の開発合宿](https://gist.github.com/57249e4e38ecf6aa37b6)でFOBOSを使ってお手軽単語分割器を書いた(デモは[ここ](http://yasuhisay.info/tiny_word_segmenter)に置いてる)のだけど、そのときには2値分類器を作っていた。そういえば多クラス分類器は作ってなかったなーと思ったので、[これ](https://github.com/syou6162/fobos_clj)をベースにして作った。
 
 - [syou6162/fobos_multiclass_clj](https://github.com/syou6162/fobos_multiclass_clj)
 
-といっても1 vs restでやるだけの簡単なやつです。でも、clojureだけで動くと何かと便利なので。
+といっても1 vs restでやるだけの簡単なやつです。でも、clojureだけで動くと何かと便利なので。libsvm形式とかに一回用意しないといけないとかは面倒だけど、このライブラリだと
+
+```
+(def training-example
+  [["A" ["hoge" 1] ["fuga" 1]]
+   ["B" ["piyo" 1] ["nyan" 1]]
+   ["A" ["hoge" 1]]])
+```
+
+みたいな形でデータとラベルをつっこめるような感じにした。
 
 # 2012-10-06
 
