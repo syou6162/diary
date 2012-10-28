@@ -1,3 +1,28 @@
+
+# 2012-10-28
+
+## What's Wrong???
+係り受け解析とかアライメントとかある程度高次のNLPのタスクを扱っているとエラー分析が割と大変になってくる(CoNLLのフォーマットだけ見てエラー分析はつらい...)。どう改善すればよいかの糸口を得るためにもエラー分析は重要。それをビジュアルにできるツールがあるので紹介。
+
+- [whatswrong - What's Wrong With My NLP? - Google Project Hosting](https://code.google.com/p/whatswrong/)
+
+同時解析とかJoint Inferenceとかの研究で有名な[Sebastian Riedel](http://riedelcastro.github.com/)さんが作ったツール。
+
+- syntactic dependency graphs
+- semantic dependency graphs (a la CoNLL 2008)
+- Chunks (such as syntactic chunks, NER chunks, SRL chunks etc.)
+- Bilingual alignments
+- BioNLP events, proteins, locations
+
+などなど、shared-taskをベースにしてやる人にはありがたいツールである。ちなみに、こんな感じの出力が出る。
+
+![bionlp09](http://whatswrong.googlecode.com/svn/trunk/doc/screenshots/bionlp09.png)
+![CoNLL2003](http://whatswrong.googlecode.com/svn/branches/whatswrong-0.1.x/doc/screenshots/CoNLL2003.png)
+
+黒はgoldのデータと予測したものが一致した箇所、青は(予測のほうは外れてて)goldが出したところ、赤は予測のほうが外して出しちゃったやつ、となる。ちなみにdependency parsingの出力をclojureから出すだけならこんな感じで割と簡単にやることができる。
+
+- [syou6162/dorothy-example · GitHub](https://github.com/syou6162/dorothy-example)
+
 # 2012-10-26
 
 ## 読了
