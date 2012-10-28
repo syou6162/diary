@@ -16,8 +16,8 @@
 
 などなど、shared-taskをベースにしてやる人にはありがたいツールである。ちなみに、こんな感じの出力が出る。
 
-![bionlp09](http://whatswrong.googlecode.com/svn/trunk/doc/screenshots/bionlp09.png)
-![CoNLL2003](http://whatswrong.googlecode.com/svn/branches/whatswrong-0.1.x/doc/screenshots/CoNLL2003.png)
+![bionlp09](http://cdn-ak.f.st-hatena.com/images/fotolife/s/syou6162/20121029/20121029012202.png)
+![CoNLL2003](http://cdn-ak.f.st-hatena.com/images/fotolife/s/syou6162/20121029/20121029012203.png)
 
 黒はgoldのデータと予測したものが一致した箇所、青は(予測のほうは外れてて)goldが出したところ、赤は予測のほうが外して出しちゃったやつ、となる。ちなみにdependency parsingの出力をclojureから出すだけならこんな感じで割と簡単にやることができる。
 
