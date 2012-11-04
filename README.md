@@ -6,6 +6,32 @@
 ```sh
 lein -U deps
 ```
+
+## ikoma sicp再開します&&図形言語のエッセンス
+各位忙しかったり何だかんだで止まっていたsicp勉強会ですが、ozaさんに声をかけてもらったので再開することにしました。
+
+- [sicp/ikoma-sicp](https://github.com/sicp/ikoma-sicp)
+
+Clojureでやる際に図形言語が面倒だったのですが(というかswing)、そこは再開のときは飛ばすことにしました。自分は図形言語を一応やっていたので、そこの付近のエッセンスについて書いておくと、「入力と出力の型を一緒にしておく」ってことがこの付近のエッセンスだったと思います。clojureはhaskellみたいに型を書かなくていいけど、逆に書かないことによりその付近を意識できなくなってしまうので、少々厄介なところ。図形言語で言うと「ペインタをbeloやbesideしたものもまたペインタである」というところを強く意識すると得るものがかなりあります。
+
+上の考え方が役に立った例だとshift-reduce parsingがあります。shift-reduce parsingはstackとqueue(まとめてconfigurationと呼ぶ)に対してleftとかright、shiftやreduceといった操作をしていくのですが、これらの入力も出力もconfigurationになります。このことを考えると、初期のconfigurationからleftとかshiftとかを合成することが可能になってきます。
+
+つまり
+
+```clj
+(reduce (shift (left config)))
+```
+
+みたいに書いていたものが
+
+```clj
+((compose reduce shift left) config)
+```
+
+といった風に書けるということです(関数を合成して、まとめて適用している)。できることは同じですが、関数のリストを一気にcomposeして、といったことができるようになってくると色々見通しがよくなってきます。この辺の考え方はhaskellをやると分かりやすくなった気もするし、モナドは下の本でやっと分かるようになってきました。
+
+- [Amazon.co.jp： すごいHaskellたのしく学ぼう!: Miran Lipova a, 田中 英行, 村主 崇行: 本](http://www.amazon.co.jp/dp/4274068854)
+
 # 2012-11-02
 
 ## 読了
