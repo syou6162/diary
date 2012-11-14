@@ -1,3 +1,13 @@
+# 2012-11-14
+
+## 本日の衝撃
+Clojureでは無名関数に名前が付けれた。これはびびった。
+
+```clj
+((fn fib [n] (if (< n 2) n (+ (fib (- n 2)) (fib (- n 1))))) 10) ; 55
+```
+
+- [recursion - Non tail-recursive anonymous functions in Clojure - Stack Overflow](http://stackoverflow.com/questions/5626641/non-tail-recursive-anonymous-functions-in-clojure)
 
 # 2012-11-07
 
