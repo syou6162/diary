@@ -1,3 +1,23 @@
+# 2012-11-18
+
+## ソートでshuffle
+`sort -r`とかってやるとシャッフルしてくれるので便利なんだけど、Macのsortにはこの機能がないっぽい。そういうわけで`sudo port install coreutils`。
+
+```sh
+% echo "hoge\nfuga\npiyo" > tmp.txt
+% cat tmp.txt
+hoge
+fuga
+piyo
+% cat tmp.txt | gsort -R >! tmp.txt
+% cat tmp.txt
+hoge
+piyo
+fuga
+```
+
+オンラインアルゴリズムでシャッフルが必要なときに、とか。
+
 # 2012-11-14
 
 ## 無名再帰関数をメモ化する
