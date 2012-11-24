@@ -1,5 +1,42 @@
 # 2012-11-18
 
+## 高台寺に行ってきました
+### 高台寺
+そろそろ京都の紅葉を取りに行かねば...!ってことで[高台寺](http://www.kodaiji.com/index.html)に紅葉を取りに行きました。今週から3週間くらいがどうやら紅葉のピークっぽいけど、人手もピークっぽいので市バスとかは死にそう。
+
+![高台寺入口](https://raw.github.com/gist/b4f750efd8f5fdac9f83/shrinked-IMGP0901.jpg)
+![高台寺周辺](https://raw.github.com/gist/b4f750efd8f5fdac9f83/shrinked-IMGP0900.jpg)
+![お線香1](https://raw.github.com/gist/b4f750efd8f5fdac9f83/shrinked-IMGP0908.jpg)
+![お線香2](https://raw.github.com/gist/b4f750efd8f5fdac9f83/shrinked-IMGP0915.jpg)
+![大仏](https://raw.github.com/gist/b4f750efd8f5fdac9f83/shrinked-IMGP0916.jpg)
+![大吉](https://raw.github.com/gist/b4f750efd8f5fdac9f83/shrinked-IMGP0917.jpg)
+![猛烈に欲しがっている鯉](https://raw.github.com/gist/b4f750efd8f5fdac9f83/shrinked-IMGP0927.jpg)
+![紅葉1](https://raw.github.com/gist/b4f750efd8f5fdac9f83/shrinked-IMGP0957.jpg)
+![紅葉2](https://raw.github.com/gist/b4f750efd8f5fdac9f83/shrinked-IMGP0959.jpg)
+![紅葉3](https://raw.github.com/gist/b4f750efd8f5fdac9f83/shrinked-IMGP0968.jpg)
+![紅葉4](https://raw.github.com/gist/b4f750efd8f5fdac9f83/shrinked-IMGP0980.jpg)
+![龍1](https://raw.github.com/gist/b4f750efd8f5fdac9f83/shrinked-IMGP0994.jpg)
+![砂がすごい](https://raw.github.com/gist/b4f750efd8f5fdac9f83/shrinked-IMGP1013.jpg)
+![赤がすごい](https://raw.github.com/gist/b4f750efd8f5fdac9f83/shrinked-IMGP1014.jpg)
+![竹林](https://raw.github.com/gist/b4f750efd8f5fdac9f83/shrinked-IMGP1071.jpg)
+![紅葉5](https://raw.github.com/gist/b4f750efd8f5fdac9f83/shrinked-IMGP1075.jpg)
+![うしー](https://raw.github.com/gist/b4f750efd8f5fdac9f83/shrinked-IMGP1080.jpg)
+![京都っぽい通り](https://raw.github.com/gist/b4f750efd8f5fdac9f83/shrinked-IMGP1093.jpg)
+
+### はこぶキッチン
+はてなインターンのときのお世話になった[さっこさん](http://twitter.com/sacco0627)がやられているHACOBU KITCHEN@五条に遅めの昼御飯に行ってきました。名前覚えててもらえて嬉しかったw。相変わらずのおいしさだったので、また来たいなーと思います。
+
+![はこぶキッチン入口](https://raw.github.com/gist/b4f750efd8f5fdac9f83/shrinked-IMG_1434.jpg)
+![はこぶキッチンカレー](https://raw.github.com/gist/b4f750efd8f5fdac9f83/shrinked-IMG_1436.jpg)
+![おからチーズケーキ](https://raw.github.com/gist/b4f750efd8f5fdac9f83/shrinked-IMG_1438.jpg)
+![おからクッキー](https://raw.github.com/gist/b4f750efd8f5fdac9f83/shrinked-IMG_1439.jpg)
+
+その後は[京都国際マンガミュージアム](http://www.kyotomm.jp/)に行ってスラムダンクを読み漁ったり、夜はやきうどんを食べて帰ってきました。
+
+![やきうどん](https://raw.github.com/gist/b4f750efd8f5fdac9f83/shrinked-IMG_1442.jpg)
+
+最近へ平日のペースで休日もいると死ぬなって思うことが多いので、休日は意図的に外に出ることを多くしています。学生のときがいかにオンオフの切り替えができていなかったかという。。。
+
 ## ソートでshuffle
 `sort -r`とかってやるとシャッフルしてくれるので便利なんだけど、Macのsortにはこの機能がないっぽい。そういうわけで`sudo port install coreutils`。
 
