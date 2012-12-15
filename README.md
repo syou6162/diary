@@ -1,3 +1,99 @@
+# 2012-12-15
+## Destructuring with clojure
+`let`の車輪の再発明。On Lispの勉強中なのです。パターンマッチとかできるようにして、クエリコンパイラとか作りたい(core.matchでできるとか言うな、そこ)。
+
+まず、こんなのを
+
+```clj
+(destruc '(a (b c) d) 'seq 0)
+```
+
+こんな感じで
+
+```clj
+((a (clojure.core/nth seq 0))
+ ((G__9671 (clojure.core/nth seq 1))
+  (b (clojure.core/nth G__9671 0))
+  (c (clojure.core/nth G__9671 1)))
+ (d (clojure.core/nth seq 2)))
+```
+
+変形させる関数を用意。
+
+```clj
+(defn atom? [x] (not (seq? x)))
+
+(defn destruc [pattern seq-name n]
+  (if (empty? pattern)
+    nil
+    (let [r (cond (atom? pattern) pattern
+                  (= (first pattern) '&) (second pattern)
+                  :else nil)]
+      (if r
+        `((~r (drop ~n ~seq-name)))
+        (let [p (first pattern)
+              rec (destruc (rest pattern) seq-name (inc n))]
+          (if (atom? p)
+            (cons `(~p (nth ~seq-name ~n))
+                  rec)
+            (let [v (gensym)]
+              (cons (cons `(~v (nth ~seq-name ~n))
+                          (destruc p v 0))
+                    rec))))))))
+```
+
+次に、上で生成されるようなネストしたリストをネストした`let`に割り当てるような関数を用意。
+
+```clj
+(defn dbind-ex [binds body]
+  (if (empty? binds)
+    `(do ~@body)
+    `(let ~(->> binds
+                (map (fn [b] (if (seq? (first b)) (first b) b)))
+                (apply concat)
+                (vec))
+       ~(dbind-ex (->> binds
+                       (map (fn [b] (if (seq? (first b)) (rest b))))
+                       (apply concat)
+                       (vec))
+                  body))))
+```
+
+こんな感じのを
+
+```clj
+(dbind-ex (destruc '(a (b c) d) 'seq 0) '((+ x y)))
+```
+
+こんな感じに変形できます。
+
+```clj
+(clojure.core/let [a (clojure.core/nth seq 0)
+                   G__9030 (clojure.core/nth seq 1)
+                   d (clojure.core/nth seq 2)]
+                  (clojure.core/let [b (clojure.core/nth G__9030 0)
+                                     c (clojure.core/nth G__9030 1)]
+                                    (do (+ x y))))
+```
+
+あとは、これを包んでやるマクロを書くだけ。
+
+```clj
+(defmacro dbind [pat s & body]
+  (let [gseq (gensym)]
+    `(let [~gseq ~s]
+       ~(dbind-ex (destruc pat gseq 0) body))))
+```
+
+`let`とできること同じだけど、これはこれで面白い。
+
+```clj
+(dbind (a b c) '(1 2 3) (list a b c)) ; (1 2 3)
+(dbind (a (b c) & d) '(1 (2 3) 4 5) (list a (list b c) d)) ; (1 (2 3) (4 5))
+```
+
+今度はパターンマッチをやってみよー。
+
 # 2012-11-18
 
 ## 高台寺に行ってきました
