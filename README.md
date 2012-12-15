@@ -1,6 +1,6 @@
 # 2012-12-15
 ## Destructuring with clojure
-`let`の車輪の再発明。On Lispの勉強中なのです。パターンマッチとかできるようにして、クエリコンパイラとか作りたい(core.matchでできるとか言うな、そこ)。
+`let`の車輪の再発明。On Lispの勉強中なのです。パターンマッチとかできるようにして、クエリコンパイラとか作りたい([core.match](https://github.com/clojure/core.match)でできるとか言うな、そこ)。
 
 まず、こんなのを
 
