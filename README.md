@@ -94,6 +94,31 @@
 
 今度はパターンマッチをやってみよー。
 
+# 2012-12-08
+## 神戸ルミナリエに行ってきました
+というわけで行ってきました。久々の神戸。
+
+- [神戸ルミナリエ](http://www.kobe-luminarie.jp/)
+
+京都駅から特急で一時間くらいで着くので意外と近い。研修でお世話になっていた付近のビル周辺にあんなすごいのができるとは思ってもみなかったのでびっくりしました。
+![入口付近](http://cdn-ak.f.st-hatena.com/images/fotolife/s/syou6162/20121208/20121208203316_original.jpg?1355826278)
+![ガラスに反射してめちゃくちゃ綺麗](http://cdn-ak.f.st-hatena.com/images/fotolife/s/syou6162/20121208/20121208203141_original.jpg?1355826278)
+![](http://cdn-ak.f.st-hatena.com/images/fotolife/s/syou6162/20121208/20121208204657_original.jpg?1355826344)
+![](http://cdn-ak.f.st-hatena.com/images/fotolife/s/syou6162/20121208/20121208205334_original.jpg?1355826345)
+![](http://cdn-ak.f.st-hatena.com/images/fotolife/s/syou6162/20121208/20121208204657_original.jpg?1355826346)
+![](http://cdn-ak.f.st-hatena.com/images/fotolife/s/syou6162/20121208/20121208204939_original.jpg?1355826347)
+![](http://cdn-ak.f.st-hatena.com/images/fotolife/s/syou6162/20121208/20121208205142_original.jpg?1355826348)
+![](http://cdn-ak.f.st-hatena.com/images/fotolife/s/syou6162/20121208/20121208204921_original.jpg?1355826349)
+
+### 番外編
+神戸は研修のときにうまいお店を結構知ることができたので、うまいところにもまた行ってきました。
+
+洋食のアサヒ。あそこのビフカツは本当においしい。
+![アサヒのビフカツ](http://cdn-ak.f.st-hatena.com/images/fotolife/s/syou6162/20121208/20121208144253_original.jpg?1355826170)
+
+元町駅前の海鮮丼。安いしおいしい。
+![海鮮丼](http://cdn-ak.f.st-hatena.com/images/fotolife/s/syou6162/20121209/20121209134235_original.jpg?1355826171)
+
 # 2012-11-18
 
 ## 高台寺に行ってきました
