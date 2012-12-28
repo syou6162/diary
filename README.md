@@ -1,3 +1,13 @@
+# 2012-12-28
+## 読了
+しばらく通勤読書がおざなりになっていたけど、復活させた。
+
+- [Amazon.co.jp： 英雄の書（上） (新潮文庫): 宮部 みゆき: 本](http://www.amazon.co.jp/dp/410136933X/)
+
+出たばっかりに買ってみた。
+
+- [Amazon.co.jp： HUNTER×HUNTER 31 (ジャンプコミックス): 冨樫 義博: 本](http://www.amazon.co.jp/dp/4088706978/)
+
 # 2012-12-15
 ## Destructuring with clojure
 `let`の車輪の再発明。On Lispの勉強中なのです。パターンマッチとかできるようにして、クエリコンパイラとか作りたい([core.match](https://github.com/clojure/core.match)でできるとか言うな、そこ)。
