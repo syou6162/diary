@@ -25,6 +25,10 @@
 
 - [Amazon.co.jp： HUNTER×HUNTER 31 (ジャンプコミックス): 冨樫 義博: 本](http://www.amazon.co.jp/dp/4088706978/)
 
+あの二人がついに...!不器用な彼等がああなってくれてよかった。
+
+- [Amazon.co.jp： 別冊図書館戦争II (図書館戦争シリーズ 6) (角川文庫): 有川 浩, 徒花 スクモ: 本](http://www.amazon.co.jp/dp/404389810X/)
+
 # 2012-12-15
 ## Destructuring with clojure
 `let`の車輪の再発明。On Lispの勉強中なのです。パターンマッチとかできるようにして、クエリコンパイラとか作りたい([core.match](https://github.com/clojure/core.match)でできるとか言うな、そこ)。
