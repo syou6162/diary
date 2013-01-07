@@ -1,3 +1,58 @@
+# 2013-01-07
+## 年末年始
+今年の年末年始はあっちへこっちへ行っていました。濃密で楽しかったです(えっ、これから2月終わりくらいまで忙しいんだからいいじゃないですか...)。
+
+### 東京へ
+某イベントで友達と会うために東京へ。それぞれにお土産買ってたらすごい量になっていた。喜んでもらえたようでよかった。
+
+![cuteなやつはしお菓子](https://gist.github.com/raw/cb90c0d39dfc248b0549/35bc5b5bc8f0c9368ce6d172764647c46ffd4911/shrinked-IMG_1524.jpg)
+![泊まってたホテル](https://gist.github.com/raw/cb90c0d39dfc248b0549/35bc5b5bc8f0c9368ce6d172764647c46ffd4911/shrinked-IMGP1157.jpg)
+![23階はなかなかよい眺めだった](https://gist.github.com/raw/cb90c0d39dfc248b0549/35bc5b5bc8f0c9368ce6d172764647c46ffd4911/shrinked-IMGP1152.jpg)
+
+### 年越し
+年越しは@yag_ays宅で。ガキの使い見てたら年があけてた。
+
+![年越し蕎麦](https://gist.github.com/raw/cb90c0d39dfc248b0549/35bc5b5bc8f0c9368ce6d172764647c46ffd4911/shrinked-IMG_1539.jpg)
+
+明けてから浅草寺へ初詣にも行った。
+
+![東京スカイツリー](https://gist.github.com/raw/cb90c0d39dfc248b0549/35bc5b5bc8f0c9368ce6d172764647c46ffd4911/shrinked-IMGP1169.jpg)
+![雷門](https://gist.github.com/raw/cb90c0d39dfc248b0549/35bc5b5bc8f0c9368ce6d172764647c46ffd4911/shrinked-IMGP1177.jpg)
+![よい天気](https://gist.github.com/raw/cb90c0d39dfc248b0549/35bc5b5bc8f0c9368ce6d172764647c46ffd4911/shrinked-IMGP1183.jpg)
+![五重の塔](https://gist.github.com/raw/cb90c0d39dfc248b0549/35bc5b5bc8f0c9368ce6d172764647c46ffd4911/shrinked-IMGP1190.jpg)
+![小舟町](https://gist.github.com/raw/cb90c0d39dfc248b0549/35bc5b5bc8f0c9368ce6d172764647c46ffd4911/shrinked-IMGP1191.jpg)
+![大吉だった](https://gist.github.com/raw/cb90c0d39dfc248b0549/35bc5b5bc8f0c9368ce6d172764647c46ffd4911/shrinked-IMGP1204.jpg)
+![非常に強力なあんこ](https://gist.github.com/raw/cb90c0d39dfc248b0549/35bc5b5bc8f0c9368ce6d172764647c46ffd4911/shrinked-IMGP1213.jpg)
+
+### 帰省
+7時間くらいかけて新幹線で実家に帰ったけど、さすがに疲れた。実家ではゲームしたり、寝たりしていた。
+
+![刺身](https://gist.github.com/raw/cb90c0d39dfc248b0549/35bc5b5bc8f0c9368ce6d172764647c46ffd4911/shrinked-IMGP1216.jpg)
+![エビチリうまい](https://gist.github.com/raw/cb90c0d39dfc248b0549/35bc5b5bc8f0c9368ce6d172764647c46ffd4911/shrinked-IMGP1219.jpg)
+![実家にてゆびーと対戦](https://gist.github.com/raw/cb90c0d39dfc248b0549/35bc5b5bc8f0c9368ce6d172764647c46ffd4911/shrinked-IMG_1545.jpg)
+![すーふぁみでぼんばーまん](https://gist.github.com/raw/cb90c0d39dfc248b0549/35bc5b5bc8f0c9368ce6d172764647c46ffd4911/shrinked-IMG_1547.jpg)
+
+### 北野天満宮&下鴨神社
+
+彼女と初詣に行ってきました。あちこち行きまくって楽しかった。
+
+![長くて太いうどん](https://gist.github.com/raw/cb90c0d39dfc248b0549/35bc5b5bc8f0c9368ce6d172764647c46ffd4911/shrinked-IMGP1225.jpg)
+![北野天満宮入口](https://gist.github.com/raw/cb90c0d39dfc248b0549/35bc5b5bc8f0c9368ce6d172764647c46ffd4911/shrinked-IMGP1232.jpg)
+![今年は巳年です](https://gist.github.com/raw/cb90c0d39dfc248b0549/35bc5b5bc8f0c9368ce6d172764647c46ffd4911/shrinked-IMGP1244.jpg)
+![下鴨神社](https://gist.github.com/raw/cb90c0d39dfc248b0549/35bc5b5bc8f0c9368ce6d172764647c46ffd4911/shrinked-IMGP1257.jpg)
+![下鴨神社](https://gist.github.com/raw/cb90c0d39dfc248b0549/35bc5b5bc8f0c9368ce6d172764647c46ffd4911/shrinked-IMGP1266.jpg)
+![今出川のカフェ](https://gist.github.com/raw/cb90c0d39dfc248b0549/35bc5b5bc8f0c9368ce6d172764647c46ffd4911/shrinked-IMG_1563.jpg)
+![下鴨神社付近にて](https://gist.github.com/raw/cb90c0d39dfc248b0549/35bc5b5bc8f0c9368ce6d172764647c46ffd4911/shrinked-IMG_1566.jpg)
+
+### まったり
+
+今年もうまいもの食べていきたい。
+
+![お好み焼き](https://gist.github.com/raw/cb90c0d39dfc248b0549/35bc5b5bc8f0c9368ce6d172764647c46ffd4911/shrinked-IMG_1549.jpg)
+![前菜](https://gist.github.com/raw/cb90c0d39dfc248b0549/35bc5b5bc8f0c9368ce6d172764647c46ffd4911/shrinked-IMG_1551.jpg)
+![ケーキ](https://gist.github.com/raw/cb90c0d39dfc248b0549/35bc5b5bc8f0c9368ce6d172764647c46ffd4911/shrinked-IMG_1552.jpg)
+![久しぶりのお酒](https://gist.github.com/raw/cb90c0d39dfc248b0549/35bc5b5bc8f0c9368ce6d172764647c46ffd4911/shrinked-IMG_1555.jpg)
+
 # 2012-12-30
 ## 2012年まとめ
 職場では「2012年まとめ記事とか書くとあとで黒歴史化する」とか言われましたが、聞かなかったことにしよう。
