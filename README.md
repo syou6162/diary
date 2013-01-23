@@ -1,3 +1,23 @@
+
+# 2013-01-23
+## LaTeXの原稿で"。、"を"．，"に変換
+この日記でもそうだけど、句読点は「。、」で書いている。でも、日本語の論文の原稿とかは「．，」であることが慣例である。IMEの設定とかEmacsの設定で変えてしまえばいいんだけど、変えるのはこの原稿だけでいいって場合がある。Omakeを使ってTeXのファイルをコンパイルしているので、その前処理でそういうのをやってくれればいいなと思ったのでメモ。置換しているだけ。`hoge.tex`ってファイルを編集していて、置換後のが`fuga.tex`になっている。あとはいつも通り。
+
+```ocaml
+LATEX = platex
+DVIPDFM = dvipdfmx
+BIBTEX = jbibtex
+DVIPDFMFLAGS = -p a4
+
+LaTeXDocument(fuga, fuga)
+
+fuga.tex: hoge.tex
+.DEFAULT: fuga.pdf fuga.dvi
+
+.BUILD_BEGIN:
+	nkf hoge.tex | tr "。、" "．，" > fuga.tex
+```
+
 # 2013-01-13
 ## 実験するときに意識してることまとめ
 重複または不足多々あるけど、忘備録的な感じで。
