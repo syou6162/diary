@@ -19,6 +19,47 @@ pptxで図を作っていて、そいつをLaTeXの原稿に挿入したいっ�
 
 とりあえずこれでうまく行った。Omnigraffleだったらこんなことをしなくても素直にやってくれるのに。。。
 
+# 2013-01-26
+## 京都水族館に行ってきました
+関西方面にきていたyag_aysと京都水族館に行ってきました。8月に一度きたことがあるので、二度目の来館です。3回以上くることがあるなら年間パスを作っておくとよい感じだったので、作っておけばよかった。。。
+
+京都駅から徒歩でも15分、市バスなら10分もかからずに着くところにあります。海がないのに水族館。
+![京都水族館1](https://gist.github.com/syou6162/4971759/raw/64a678c1cc60b932e21bb9a97f25d3e567412710/shrinked-IMGP1280.jpg)
+![京都水族館1](https://gist.github.com/syou6162/4971759/raw/54c9d99aecf011b7b94a96b1fd380c407e56a4c9/shrinked-IMGP1283.jpg)
+
+喧嘩してた。
+![アザラシ](https://gist.github.com/syou6162/4971759/raw/9613fa3db0acce7085b94731ef131a7e7e34be91/shrinked-IMGP1322.jpg)
+
+癒し系笑顔。
+![癒し系](https://gist.github.com/syou6162/4971759/raw/fae53537ff5cfb45cc4cee2b7493191321c8e439/shrinked-IMGP1337.jpg)
+
+生まれて一ヶ月も経ってない赤ちゃんペンギン。ご飯食べてた。かわいい。。。
+![赤ちゃんペンギン](https://gist.github.com/syou6162/4971759/raw/b74afb0e0bd612b79a7c3eaaf6e2cf5ba5666fe9/shrinked-IMGP1354.jpg)
+
+顔っぽく見える。
+![エイ](https://gist.github.com/syou6162/4971759/raw/5b1cd9a283a81037b70d3b3ac93eb5d793f694a0/shrinked-IMGP1369.jpg)
+
+みんなで一斉にプールに向かっててシャッター切りまくっていた。
+![ペンギン1](https://gist.github.com/syou6162/4971759/raw/5b2c6a21046fbf0f5c19a623d6e7a9205aa4acce/shrinked-IMGP1417.jpg)
+![ペンギン2](https://gist.github.com/syou6162/4971759/raw/410ca55e25b081b26bcbe67cd8ec72dd34bb10e4/shrinked-IMGP1429.jpg)
+![ペンギン3](https://gist.github.com/syou6162/4971759/raw/74e253c559f46a1ade7b4d9a4d837e192d66ca42/shrinked-IMGP1434.jpg)
+
+イルカショー。あんまり前のほうに座ると水食らいます。
+![イルカ1](https://gist.github.com/syou6162/4971759/raw/4aa405f599ae62f3ee052fd2f59c798199a5dde7/shrinked-IMGP1451.jpg)
+![イルカ2](https://gist.github.com/syou6162/4971759/raw/a043c2bec13a677eca137fedd814970c2c9317c1/shrinked-IMGP1470.jpg)
+![イルカ3](https://gist.github.com/syou6162/4971759/raw/34f95a0886ed83850cdce68ed67cc99150627477/shrinked-IMGP1520.jpg)
+
+ちっちゃい子と握手したり。
+![握手](https://gist.github.com/syou6162/4971759/raw/301d48df59c415584db50d479a80eb58cb4819a4/shrinked-IMGP1492.jpg)
+
+ヒトデマン。
+![ヒトデマン](https://gist.github.com/syou6162/4971759/raw/93ca8948bf379adebed5933629b72daedacd9cab/shrinked-IMGP1557.jpg)
+
+クラゲは壁一面にこんな感じでイルミネーションみたいだった。
+![クラゲ](https://gist.github.com/syou6162/4971759/raw/fec9e8b7d7aa9a35dd99d92239443a0f758d75f7/shrinked-IMGP1568.jpg)
+
+また行きましょう。
+
 # 2013-01-23
 ## LaTeXの原稿で"。、"を"．，"に変換
 この日記でもそうだけど、句読点は「。、」で書いている。でも、日本語の論文の原稿とかは「．，」であることが慣例である。IMEの設定とかEmacsの設定で変えてしまえばいいんだけど、変えるのはこの原稿だけでいいって場合がある。Omakeを使ってTeXのファイルをコンパイルしているので、その前処理でそういうのをやってくれればいいなと思ったのでメモ。置換しているだけ。`hoge.tex`ってファイルを編集していて、置換後のが`fuga.tex`になっている。あとはいつも通り。
