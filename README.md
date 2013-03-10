@@ -1,3 +1,27 @@
+# 2013-03-09
+## 夜の清水寺に行ってきました
+[花灯路](http://www.hanatouro.jp)の期間中ということで、高台寺と清水寺に行ってきました。きつねの嫁入りを見れたんですが、写真はうまく取りきれなかった。。。
+
+夜なのになかなかの人込み。お祭りみたい。
+![人込み](https://gist.github.com/syou6162/62b0e3544e5e3b16fe9d/raw/94e10745e96832d942d3b70378ab3bc9f57947a4/shrinked-IMGP1603.jpg)
+
+レーザーが出ていてかっちょいい。
+![レーザー](https://gist.github.com/syou6162/62b0e3544e5e3b16fe9d/raw/dc9b757bcaf2832d2f43ff11926b0c96feca67d8/shrinked-IMGP1633.jpg)
+
+ライトアップがされていて、デートにもいい感じです。
+![ライトアップ](https://gist.github.com/syou6162/62b0e3544e5e3b16fe9d/raw/c2fb01920b34a164e05446fa91606ac54a926f28/shrinked-IMGP1688.jpg)
+
+清水寺でこんだけ人がいないっていうのも珍しい。
+![終わり間際](https://gist.github.com/syou6162/62b0e3544e5e3b16fe9d/raw/f0d86cbafe8628c6d17688dbc873f891cc4dc379/shrinked-IMGP1704.jpg)
+![階段](https://gist.github.com/syou6162/62b0e3544e5e3b16fe9d/raw/ecbf2462fb4a4675ec4f3614578a92f763e33233/shrinked-IMGP1708.jpg)
+![静か](https://gist.github.com/syou6162/62b0e3544e5e3b16fe9d/raw/bca22dd9a12614bd189a5d49d430c7c327790b57/shrinked-IMGP1722.jpg)
+
+これ、最初に水面に映っているのに気がつかなかった。澄みきっている。
+![水面1](https://gist.github.com/syou6162/62b0e3544e5e3b16fe9d/raw/7eef627b8b1dea7578e5f95d41204d3b00fe419b/shrinked-IMGP1725.jpg)
+![水面2](https://gist.github.com/syou6162/62b0e3544e5e3b16fe9d/raw/43a51bc17a1a5be13df2e2b4a6bae5403b645a46/shrinked-IMGP1736.jpg)
+
+というわけで、夜の清水寺もいつもと雰囲気が違ってなかなか楽しめました。
+
 # 2013-02-10
 ## pptxのスライド1ページをpdfに変換して、LaTeXで書いたものに挿入
 ご無沙汰です。大変忙しく過しております。スライドとか原稿を作りまくるお仕事ばかりでコードが書きたいです。
