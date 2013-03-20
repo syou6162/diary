@@ -1,3 +1,51 @@
+# 2013-03-21
+## finalを乗り越えろ、リフレクション入門
+(よく知られた)黒魔術系です。よい子は安易には真似しないほうがよいらしいです。
+
+Clojureはjavaの豊富なライブラリが使えてとてもよろしいのですが、ときどきjava側のライブラリの挙動を変更したくなります。`with-redef`などで一時的に挙動を変えることやjavaのクラスを継承して元のソースを変更することなく、java側のライブラリの挙動を変更するという要望に応えることができます。しかし、java側のクラスに(`protected`ならまだしも)`private`が付いていると継承できなくなってしまうので困ります。
+
+javaはほとんど知らないので初めて知ったのですが、リフレクションというものを使うとそのような`private`が付いたメソッドの継承や`private`のフィールドにアクセス、変更することが可能になるようです。いわゆる黒魔術系?もちろん非推奨の技術だとは思うけど、`private`なメソッドのテストを書きたいときなどに使われるようです(このようなケースでテストを書くべきかについては議論の余地があるっぽいけど、今回は知らないものとして扱う)。
+
+そんなわけでリフレクションを使いたい。javaでリフレクションを使って`private`なメソッドやフィールドにアクセスするためには、まず
+
+```java
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+```
+
+をしておきます。
+
+### privateなフィールドにアクセスしたい
+例えば`obj`というオブジェクトの`text`というフィールドが`private`で修飾されているけど、アクセスしたいという場合には
+
+```java
+Field field = obj.getClass().getDeclaredField("text");
+field.setAccessible(true);
+
+System.out.println((String)field.get(obj));
+```
+
+などとやるとよいようです。`getClass`メソッドはオブジェクトの属するクラスを返すようなメソッドらしく(?)、継承元のクラスを得たい場合などは`getSuperclass`メソッドをさらにチェーンさせればよいようです(`getClass().getSuperclass().getDeclaredField("text");`など)。`field.get(obj)`の戻り値の方は`Object`型なので、適当にキャストしてあげる必要があるようです。intが欲しい場合などは`field.getInt(obj)`などとする必要があるっぽい。詳しくはjavadoc参照。
+
+### privateなメソッドにアクセスしたい
+privateなメソッドにアクセスしたい場合も上記とほぼ同様です。`Field field`とやっていたのを`Method method`、`getDeclaredField`とやっていたのを`getDeclaredMethod`とすれば動きます。呼び出したい場合は`method.invoke(obj, arg1, arg2);`という具合。clojureで
+も`invoke`というのをたまに見かけるけど、リフレクションを使っていたのね。
+
+ただし、`private`なメソッドが`static`だった場合、これだけじゃいけないらしくしばらくはまっていました。欲しいメソッドの引数が`String`だった場合
+
+```java
+Method method = TargetClass.class.getDeclaredMethod("wantedMethod", String.class);
+method.setAccessible(true);
+```
+
+という感じで指定して、呼び出す際には
+
+```java
+method.invoke(null, "hogehoge");
+```
+
+などとやる必要があるらしい。インスタンスが必要ないからこういう感じか。
+
 # 2013-03-09
 ## 夜の清水寺に行ってきました
 [花灯路](http://www.hanatouro.jp)の期間中ということで、高台寺と清水寺に行ってきました。きつねの嫁入りを見れたんですが、写真はうまく取りきれなかった。。。
