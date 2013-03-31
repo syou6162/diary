@@ -1,3 +1,21 @@
+# 2013-03-31
+## 御所にお花見に行ってきました
+本当は自転車であちこち見に行こうと思ったけど、平日で結構疲れていたので、御所だけ見に行くことに。年度末ということもあって死ぬほどの人込みを予想していましたが、御所はそんなに混みまくっているわけではなく、桜自体もいい感じだったのでいいときに行けたようです。
+
+![さくら1](https://gist.github.com/syou6162/5280034/raw/dc1660387e3422606b003e12d39d643863f0ab5d/shrinked-IMGP1852-2.jpg)
+![しだれ桜](https://gist.github.com/syou6162/5280034/raw/d3031b29e42ed08999f2356689797ab5ac69d649/shrinked-IMGP1867-2.jpg)
+![梅とか桃とか](https://gist.github.com/syou6162/5280034/raw/499e5dd2f134e357627a14abf179c1f9f5796675/shrinked-IMGP1874.jpg)
+![さくら2](https://gist.github.com/syou6162/5280034/raw/d9a269b1dae805ea34d196a2054afa1d0c970414/shrinked-IMGP1898.jpg)
+
+望遠レンズが威力を発揮した!
+![さくら3](https://gist.github.com/syou6162/5280034/raw/b5ece9f8999882b79b3200a7549317b0364eb34c/shrinked-IMGP1927-2.jpg)
+![さくら4](https://gist.github.com/syou6162/5280034/raw/9a7d648e8f609f9162cc6220af48e86c78118966/shrinked-IMGP1928.jpg)
+
+恒例の甘いものとかももちろん。
+![いえもん](https://gist.github.com/syou6162/5280034/raw/568a8add366a2af7c75df4498636dfdc4f3aa1c2/shrinked-IMGP2104.jpg)
+
+よい年度末でした!
+
 # 2013-03-21
 ## finalを乗り越えろ、リフレクション入門
 (よく知られた)黒魔術系です。よい子は安易には真似しないほうがよいらしいです。
