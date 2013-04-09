@@ -1,3 +1,28 @@
+# 2013-04-10
+## マクロを使って関数定義するときに関数にメタデータを付与する方法
+タイトルがすでに複雑。マクロを使って関数を定義しまくるときに、関数にメタデータを付与したい。どういうメタデータを付与するかはマクロの引数によって決まるので決め打ちではない。以下のページを見ていると、`vary-meta`という関数がまさにそれっぽい感じであった。
+
+- [clojure - how to write a macro to add metadata to a function - Stack Overflow](http://stackoverflow.com/questions/11144708/how-to-write-a-macro-to-add-metadata-to-a-function)
+
+これを使うと関数定義時にメタデータをばしばし付与することができる。
+
+```clj
+(defmacro def-fn-with-meta [meta-map func-name args & body]
+  `(defn ~(apply vary-meta func-name merge meta-map) ~args ~@body))
+
+(def-fn-with-meta {:feature-type "a" :bool true}
+  func-a [x] x)
+
+(meta #'func-a) ; {:arglists ([x]), :ns #<Namespace user>, :name func-a, :feature-type "a", :bool true, :line 1, :file "NO_SOURCE_FILE"}
+```
+
+これがどんなときに役に立つかというと、適用する関数をある基準で選別したい、例えば上の例なら
+
+- 素性のタイプがあるものだけフィルタリング
+- 戻り値がboolのものだけ使う
+
+とか、そんなことを後々したいときに便利に使うことができる。Clojure、マクロと名前空間のあれこれを抑え始めると大分パワーが上がってくる気がする。
+
 # 2013-04-09
 ## テキストファイルを介さないでread.csvとかをやる
 久しぶりにRです。しかし、最近Rを使わなさすぎる。。。ちゃんとした実験っていうより予備予備実験程度のものは出力のファイル名すら考えるのが面倒、さらにそれをplotするためのスクリプトのファイル名を考えるのも面倒ってことがよくあります(怠惰)。そんなときはスクリプトの断片とかをDayOneとか(人によってはevernoteとか?)にペタペタ張っていくんでしょうが、そういうときにデータとコードが分離してしまうのは、それをリンクして考えないといけないコストが発生します。つまり、csvみたいなデータもコード中に含めてしまいたい。しかし、Rの`read.csv`は文字列じゃなくてファイルを第一引数に取る...ということで少し考え込んだんですが、以下のように`textConnection`を間に挟むとファイルっぽく見せてくれるようなので、便利でした。
