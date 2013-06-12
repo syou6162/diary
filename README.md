@@ -1,3 +1,24 @@
+# 2013-06-12
+## core.typedを使ってみました
+日本のClojure界隈では使ってみた系のエントリをほとんど見たことがない気がしますが、coreに最近入った[core.typed](https://github.com/clojure/core.typed)を使ってみました。clojure自体の[type hints](http://clojure.org/java_interop#Java%20Interop-Type%20Hints)は高速化には寄与するけど、型レベルの誤りなどを教えてくれるわけではありません。一方、core.typedは「コンパイル時に」型レベルのエラーを検知できます。最近、ネストしたリストなどを扱うことが多く、ネストのレベルを間違ってデータを突っ込んでしまうetcなどで困っていたので導入しよう、と思いました。
+
+とりあえず練習用として、ネストしたvectorと再帰的な構造を例として書いてみました。
+
+- [syou6162/typed-practice](https://github.com/syou6162/typed-practice)
+
+型レベルのエラーを出すことができるのもうれしいんですが、関数の引数の型を知ることができるのもうれしいところです。こんな感じで調べることができる。
+
+```clj
+(t/cf first)
+(All [x]
+     (Fn
+      [(t/Option (I (Seqable x) (ExactCount 0))) -> nil]
+      [(I (Seqable x) (CountRange 1)) -> x]
+      [(t/Option (Seqable x)) -> (t/Option x)]))
+```
+
+clojureは例えばlistとかvectorのようなコレクション系の変数には`coll`のような名前を付ける、とか暗黙的な命名規則(?)はあるけれども、型はないので保証まではしてくれない。だけれども、core.typeで型を付けておくと上のように変数の型を知ることができるので、何を投げればいいか実行せずともある程度知ることができます(これまではclojuredocからexampleを動かさないと分からない...ということ多数だった)。単純に型を付けることができるだけでなく、C++の`typedef`のようなこともできるので、意味のある型の情報(例えば`Seqable`が入力で`Seqable`が出力、程度ではなくて`Document`型から`Sentence`型を返すなどの情報が分かる)を得ることができるのも重要なことかな、と思います。
+
 # 2013-05-16
 ## Jenkinsを導入しました
 「testは書いてたんだけど、実行するの忘れいていつの間にかtestが通らなくなっていた...」とか「いつの間にかbuildできなくなっていた...」とかが多発したのでJenkinsを導入してみることにしました。あれこれ設定するのめんどくせぇ、ということでwarファイルを直接動かしている。`~/.jenkins`とかに色々保存されている模様。jenkinsを導入したことで
